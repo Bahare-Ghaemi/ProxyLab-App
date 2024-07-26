@@ -9,7 +9,7 @@ This is a web application responsive project has been developed with Next.js and
 Project is created with:
 
 
-✨ Nex.js   
+✨ Next.js   
 
 ✨ TailwindCSS
 
