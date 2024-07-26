@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #fafbfd !important;
+}
+
+body {
+  background-color: #fafbfd;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #3d3d3f;
+}
+
+.tab-active {
+  color: #FD695A;
+}
+
+.tab:is(.tab-active, [aria-selected="true"]):not(.tab-disabled):not([disabled]),
+.tab:is(input:checked) {
+    border-color: #FD695A;
+}
